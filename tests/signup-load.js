@@ -5,9 +5,9 @@ import uuid from './libs/uuid.js'
 
 export const options = {
   stages: [
-    { duration: '15s', target: 50},
-    { duration: '30s', target: 50},
-    { duration: '15s', target: 0}
+    { duration: '1m', target: 1000},
+    { duration: '30s', target: 500},
+    { duration: '1m', target: 1000}
   ],
   thresholds:{
     http_req_duration: ['p(95)<2000'], // 95% das requisições devem responder em até 2g
