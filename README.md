@@ -54,6 +54,12 @@ yarn install
 yarn dev
 ```
 
+### Configuração local
+
+Antes de iniciar a API, copie `api/src/.env.example` para `api/src/.env` e
+informe uma instância MongoDB local ou uma credencial criada especificamente
+para o seu ambiente. Arquivos `.env` não devem ser versionados.
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
